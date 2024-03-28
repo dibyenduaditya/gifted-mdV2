@@ -19,10 +19,10 @@ global.DATABASE_URI = process.env.DATABASE_URL || ""
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Nairobi";
 global.github=process.env.GITHUB|| "https://github.com/Giftedmaurice/gifted-mdV2";
 global.gurl  =process.env.GURL  || 
-"https://whatsapp.com/channel/0029VaJmfmTDJ6H7CmuBss0o"
+"https://chat.whatsapp.com/KIks9zxaRujBqDjNEQtY29"
 ;
 global.website=process.env.GURL || 
-"https://whatsapp.com/channel/0029VaJmfmTDJ6H7CmuBss0o" 
+"https://chat.whatsapp.com/KIks9zxaRujBqDjNEQtY29" 
 ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || 
 "https://telegra.ph/file/54efddccf41281ad7ec51.jpg" 
@@ -31,8 +31,8 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE ||
 
 
 global.devs = "254728782591,254762016957" // Do Not Change Else Bot Won't Work After Deploying
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "254728782591,254762016957";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "254728782591,254762016957";
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "918653805156,917318812338";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "918653805156,918653805156";
 
 
 
@@ -79,10 +79,10 @@ module.exports = {
   VERSION : process.env.VERSION || "2.0.0",
   caption : process.env.CAPTION || "©²⁰²⁴ ɢɪғᴛᴇᴅ ʙᴏᴛ ᴍᴅᵛ²•⁰•⁰" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɢɪғᴛᴇᴅ ʙᴏᴛ ᴍᴅᵛ²•⁰•⁰ - ²⁰²⁴ 』```", //*『sᴜʙsᴄʀɪʙᴇ • ɢɪғᴛᴇᴅ ᴛᴇᴄʜ』*\n youtube.com/@giftedtechnexus"),
  
-  author : process.env.PACK_AUTHER|| "Gifted-MD",
-  packname: process.env.PACK_NAME || "♥️",
-  botname : process.env.BOT_NAME  || "ɢɪғᴛᴇᴅ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "It's Gifted",
+  author : process.env.PACK_AUTHER|| "𝑴𝑹.𝑿-𝑨𝑫𝑰𝑻𝒀𝑨",
+  packname: process.env.PACK_NAME || "𝑨𝑫𝑰𝑻𝒀𝑨-𝑿𝑫",
+  botname : process.env.BOT_NAME  || "[ !! < 𝐀ᴅɪᴛʏᴀ-𝐗ᴅ > !! ]",
+  ownername:process.env.OWNER_NAME|| "[ !! < 𝐌ʀ.x-𝐀ᴅɪᴛʏᴀ > !! ]",
 
 
   errorChat : process.env.ERROR_CHAT || "",
