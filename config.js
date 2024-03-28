@@ -25,7 +25,7 @@ global.website=process.env.GURL ||
 "https://chat.whatsapp.com/KIks9zxaRujBqDjNEQtY29" 
 ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || 
-"https://telegra.ph/file/54efddccf41281ad7ec51.jpg" 
+"https://telegra.ph/file/df8f9761efa4c44d5d764.jpg" 
 ; // SET LOGO FOR IMAGE 
 
 
